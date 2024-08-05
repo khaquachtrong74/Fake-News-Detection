@@ -36,7 +36,7 @@
     trong sklearn ta chọn thuộc tính model_selection và import cross_val_score, KFold
         # KFlod là kỹ thuật phân chia dữ liệu
         # cross-validation để đánh giá hiệu suất mô hình
-
+  !! Sử dụng Kmeans để đánh nhãn và dùng chúng cho SVM : #kết quả không ổn, không thể dự đoán được tin giả hay thật, 
 !Kích thước của 1 vector embeddings
 Word2Vec:
   Kích thước phổ biến: 100, 200, hoặc 300 chiều.
@@ -54,4 +54,4 @@ Sentence Transformers:
 
 ! Kmeans: lưu ý vài vector embeddings sẽ trả về datatype dạng float64, nhưng Kmeans chỉ chấp nhận float32 cho nên ta phải ép kiểu
 ! OneClassSVM: Dữ liệu khi cho học với kernel là linear, rbf thì sẽ trả về độ chính xác khá cao, nhưng vẫn có vấn đề khi thử nghiệm với dữ liệu giả
-! 
+! SVR: Điểm yếu~Không có nhãn, không nhận dạng được
